@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
 
-    <TextView
+    <!--<TextView
         android:layout_marginTop="60dp"
         android:text="Quantidade de aulas"
         android:layout_gravity="center_vertical|center_horizontal"
@@ -35,7 +35,14 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center_vertical|center_horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" /> -->
+
+    <GridView
+        android:id="@+id/grid"
+        android:gravity="center"
+        android:numColumns="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <Button
         android:text="Calcular"

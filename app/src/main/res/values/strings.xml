@@ -5,4 +5,6 @@
     <string name="mensagem">Faltas Limites: 5 </string>
     <string name="voltar">Voltar</string>
     <string name="resultado">resultado</string>
+    <string name="quantidadeAulas">Quantidade de aulas</string>
+    <string name="porcentagem">Porcentagem de Faltas</string>
 </resources>
